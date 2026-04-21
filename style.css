@@ -8,7 +8,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: green;
     height: 75px;
-    width: 2100px;
+    width: 100%;
     margin: 0px;
     margin-bottom: 150px;
 }
