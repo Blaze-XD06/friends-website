@@ -1,5 +1,5 @@
 body {
-    font-family: Arial;
+    font-family: "Didot", "Bodoni MT", "Georgia", serif;
     margin: 0px;
     height: 1200px;
 }
@@ -7,7 +7,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: green;
-    height: 75px;
+    height: 75px;   
     width: 100%;
     margin: 0px;
     margin-bottom: 150px;
@@ -44,15 +44,14 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 55px;
 }
 
 .card {
-    background-color: green;
     width: 275px;
     height: 320px;
-    margin-left: 75px;
+    margin: 0px auto;
 }
 
 .pics {
@@ -62,15 +61,15 @@ body {
 
 .clothing-title,.price {
     margin: 5px;
-    color: white;
 }
 
 .add-to-cart {
     width: 275px;
     height: 50px;
+    background-color: white;
     border: 2px solid green;
-    font-size: 20px;
     color: green;
+    font-size: 20px;
     cursor: pointer;
 }
 
