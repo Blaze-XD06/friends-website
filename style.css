@@ -45,7 +45,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 55px;
+    row-gap: 50px;
 }
 
 .card {
