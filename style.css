@@ -4,8 +4,8 @@ body {
     height: 1200px;
 }
 .home {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     background-color: pink;
     height: 75px;   
     width: 100%;
@@ -15,7 +15,7 @@ body {
 
 .links {
     display: flex;
-    margin-left: 200px;
+    padding: 0px 125px;
 }
 
 .link {
@@ -37,9 +37,7 @@ body {
 }
 
 .h-title {
-    display: flex;
     color: white;
-    margin-left: 75px;
 }
 
 .main {
