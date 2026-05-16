@@ -1,0 +1,43 @@
+body {
+    font-family: "Didot", "Bodoni MT", "Georgia", serif;
+    margin: 0px;
+    height: 1200px;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    height: 75px;   
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 150px;
+}
+
+.main-title {
+    color: white;
+}
+
+
+.links {
+    display: flex;
+    padding: 0px 125px;
+}
+
+.link {
+    align-self: center;
+    margin-right: 10px;
+}
+
+.icon-link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

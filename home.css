@@ -3,6 +3,7 @@ body {
     margin: 0px;
     height: 1200px;
 }
+
 .home {
     display: flex;
     justify-content: space-between;
@@ -11,6 +12,10 @@ body {
     width: 100%;
     margin: 0px;
     margin-bottom: 150px;
+}
+
+.main-title {
+    color: white;
 }
 
 .links {
@@ -36,9 +41,7 @@ body {
     cursor: pointer;
 }
 
-.h-title {
-    color: white;
-}
+
 
 .main {
     display: grid;
