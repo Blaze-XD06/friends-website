@@ -10,7 +10,7 @@ body {
     height: 75px;   
     width: 100%;
     margin: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .main-title {
@@ -39,5 +39,9 @@ body {
     height: 30px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.pricing {
+    margin-left: 1000px;
 }
 
