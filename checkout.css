@@ -42,6 +42,17 @@ body {
 }
 
 .pricing {
-    margin-left: 1000px;
+    margin: 0 100px;
 }
 
+.card {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.item {
+    background-color: blue;
+    height: 300px;
+    width: 800px;
+}
