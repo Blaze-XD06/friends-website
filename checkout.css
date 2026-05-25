@@ -43,8 +43,7 @@ body {
 }
 
 .pricing {
-    display: inline-block;
-    justify-self: end;
+    margin: 0 100px;
 }
 
 .card {

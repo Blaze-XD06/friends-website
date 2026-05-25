@@ -41,6 +41,11 @@ body {
     cursor: pointer;
 }
 
+.construction {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 .main {
