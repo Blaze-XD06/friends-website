@@ -42,19 +42,28 @@ body {
     cursor: pointer;
 }
 
-.pricing {
-    margin: 0 100px;
-}
-
 .card {
     display: flex;
     justify-content: space-around;
+}
 
+.card-info {
+    display: flex;
+    color: black;
+}
+
+.pricing {
+    margin: 0 100px;
 }
 
 .item {
     height: 275px;
     width: 700px;
+}
+
+.pic-box {
+    width: 150px;
+    height: 175px;
 }
 
 .pic {
@@ -63,6 +72,25 @@ body {
     height: 175px;
 }
 
-.card-info {
-    color: black;
+.buttons {
+    display: flex;
+}
+
+.shopping-buttons {
+    display: flex;
+    border: solid black 2px;
+}
+
+.rm-button , .add-button {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px ;
+    margin-top: 5px;
+}
+
+.rm-button:hover, .add-button:hover {
+    background-color: rgb(223, 218, 218);
 }
