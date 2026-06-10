@@ -77,11 +77,19 @@ body {
 }
 
 .shopping-buttons {
+    width: 120px;
+    height: 50px;
     display: flex;
-    border: solid black 2px;
+    border: solid gray 1px;
+    border-radius: 50px;
 }
 
-.rm-button , .add-button {
+.fav-box {
+    border: solid gray 1px;
+    border-radius: 50%;
+}
+
+.rm-button , .add-button, .fav-button {
     background-color: white;
     border: none;
     border-radius: 50%;
@@ -91,6 +99,7 @@ body {
     margin-top: 5px;
 }
 
-.rm-button:hover, .add-button:hover {
+.rm-button:hover, .add-button:hover, .fav-button:hover {
     background-color: rgb(223, 218, 218);
 }
+
