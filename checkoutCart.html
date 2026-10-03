@@ -32,9 +32,11 @@
                 </div>
                 <div class="buttons">
                     <div class="shopping-buttons">
-                    <button class="rm-button">bin</button>
-                    <p>1</p>
-                    <button class="add-button">+</button>
+                    <button onclick="num(0);"
+                    class="rm-button">bin</button>
+                    <p class="amount"></p>
+                    <button onclick="num(1)"
+                    class="add-button">+</button>
                     </div>
                     <div class="fav-box">
                         <button class="fav-button">❤️</button>
@@ -61,7 +63,18 @@
     </div>
 
     <script>
-        console.log('to be added:DOM')
+
+        const numb = document.querySelector(".amount");
+
+        numb.innerHTML = 1;
+        
+        function num (input) {
+            if (input === 1) {
+                numb.innerHTML = Number(numb.innerHTML) + 1
+            } else {
+                numb.innerHTML = Number(numb.innerHTML) - 1
+            };
+        };
     </script>
    
 </body>

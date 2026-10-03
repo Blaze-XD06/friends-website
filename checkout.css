@@ -61,17 +61,21 @@ body {
 .item {
     height: 275px;
     width: 700px;
+    border: solid 1px gray;
+    padding-bottom: 100px;
 }
 
 .pic-box {
     width: 150px;
     height: 175px;
+    padding: 10px;
 }
 
 .pic {
     display: flex;
     width: 150px;
     height: 175px;
+    border: solid 1px gray;
 }
 
 .buttons {
